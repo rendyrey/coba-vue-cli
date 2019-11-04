@@ -24,7 +24,7 @@
           <td>
             <router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary">Edit</router-link>
              | 
-            <button class="btn btn-danger" @click.prevent="deletePost(post._id)">Delete</button>
+            <button class="btn btn-danger" @click.prevent="deletePost(post._id,post)">Delete</button>
           </td>
         </tr>
       </tbody>
@@ -36,20 +36,29 @@
 export default {
   data() {
     return {
-      posts: []
+      posts: [],
+      uri: "http://localhost:4000/posts"
     };
   },
   created() {
-    let uri = "http://localhost:4000/posts";
-    this.axios.get(uri).then(response => {
+    this.axios.get(this.uri).then(response => {
       this.posts = response.data;
     });
   },
   methods: {
-    deletePost(id) {
+    loadData(){
+      this.axios.get(this.uri).then(function(response){
+        this.posts = response.data;
+      });
+    },
+    deletePost(id,posts) {
       let uri = `http://localhost:4000/posts/delete/${id}`;
       this.axios.delete(uri).then(() => {
-        this.posts.splice(this.posts.indexOf(id), 1);
+        // this.index = this.posts.indexOf(id);
+        this.posts.splice(this.posts.indexOf(posts), 1);
+        // this.$router.push({ name: "posts" });
+        // this.$router.go();
+        // res;
       });
     }
   }
