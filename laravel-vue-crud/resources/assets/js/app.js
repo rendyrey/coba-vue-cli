@@ -29,9 +29,11 @@ import CompanyEdit from './components/company/CompanyEdit.vue';
  const routes = [ 
  {
  	path: '/',
- 	components: {
- 		companyIndex: CompanyIndex
- 	},
+ 	// components: {
+	// 	 companyIndex: CompanyIndex,
+	// 	 companyCreate: CompanyCreate
+	 // },
+	 component:() => import('./components/company/CompanyIndex.vue'),
  	name : 'indexCompany'
  }, {
 	 path: '/create-company',

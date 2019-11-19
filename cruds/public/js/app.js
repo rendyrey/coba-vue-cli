@@ -2077,7 +2077,7 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     var _this = this;
 
-    var uri = 'http://localhost/coba_vuecli/cruds/public/api/posts';
+    var uri = 'http://localhost:8000/api/posts';
     this.axios.get(uri).then(function (response) {
       _this.posts = response.data.data;
     });

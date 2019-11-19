@@ -38,7 +38,7 @@
         }
       },
       created() {
-      let uri = 'http://localhost/coba_vuecli/cruds/public/api/posts';
+      let uri = 'http://localhost:8000/api/posts';
       this.axios.get(uri).then(response => {
         this.posts = response.data.data;
       });

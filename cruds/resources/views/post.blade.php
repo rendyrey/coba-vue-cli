@@ -13,7 +13,9 @@
         <a href="{{url('posts')}}">Posts</a>
         <a href="{{url('edit/21')}}">Edit</a> --}}
         <div id="app">
-          <example-component></example-component>
+          {{-- <example-component></example-component> --}}
+          {{-- halo --}}
+          {{-- <router-view></router-view> --}}
         </div>
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
     </body>

@@ -12414,9 +12414,11 @@ Vue.component('vue-pagination', __webpack_require__(44));
 
 var routes = [{
   path: '/',
-  components: {
-    companyIndex: __WEBPACK_IMPORTED_MODULE_3__components_company_CompanyIndex_vue___default.a
-  },
+  // components: {
+  // 	 companyIndex: CompanyIndex,
+  // 	 companyCreate: CompanyCreate
+  // },
+  component: __WEBPACK_IMPORTED_MODULE_3__components_company_CompanyIndex_vue___default.a,
   name: 'indexCompany'
 }, {
   path: '/create-company',
