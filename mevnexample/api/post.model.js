@@ -8,6 +8,9 @@ let Post = new Schema({
   },
   body: {
     type: String
+  },
+  uang:{
+    type: Number
   }
 }, {
   collection: 'posts'

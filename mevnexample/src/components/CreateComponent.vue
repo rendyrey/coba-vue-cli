@@ -18,6 +18,14 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Uang:</label>
+            <textarea class="form-control" v-model="post.uang" rows="5"></textarea>
+          </div>
+        </div>
+      </div>
       <br />
       <div class="form-group">
         <button class="btn btn-primary">Create</button>

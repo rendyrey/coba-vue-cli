@@ -14,6 +14,7 @@
         <tr>
           <th>Title</th>
           <th>Body</th>
+          <th>Uang</th>
           <th>Actions</th>
         </tr>
       </thead>
@@ -21,6 +22,7 @@
         <tr v-for="post in posts" :key="post._id">
           <td>{{ post.title }}</td>
           <td>{{ post.body }}</td>
+          <td>{{ post.uang }}</td>
           <td>
             <router-link :to="{name: 'edit', params: { id: post._id }}" class="btn btn-primary">Edit</router-link>
              | 
@@ -41,8 +43,8 @@ export default {
     };
   },
   created() {
-    this.axios.get(this.uri).then(response => {
-      this.posts = response.data;
+    this.axios.get(this.uri).then((res) => {
+      this.posts = res.data;
     });
   },
   methods: {
@@ -54,11 +56,11 @@ export default {
     deletePost(id,posts) {
       let uri = `http://localhost:4000/posts/delete/${id}`;
       this.axios.delete(uri).then(() => {
-        // this.index = this.posts.indexOf(id);
         this.posts.splice(this.posts.indexOf(posts), 1);
+
+        // this.index = this.posts.indexOf(id);
         // this.$router.push({ name: "posts" });
         // this.$router.go();
-        // res;
       });
     }
   }
