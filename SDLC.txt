@@ -1,0 +1,29 @@
+Data Flow Diagram
+- Flow Chart
+- Entity Relationship Diagram
+
+Struktural Diagram
+- Class Diagram
+- Object Diagram
+- Component Diagram
+- Deployment Diagram
+
+Behavioral Diagram
+- Use Case Diagram
+- Sequence Diagram
+- Collaboration Diagram
+- Statechart Diagram
+- Activity Diagram
+
+Tools:
+- Sybase Power Designer
+- Rational Rose
+- Microsoft Visio
+- Enterprise Architect
+Open Source Tools:
+- StarUML
+- DIA Diagram Editor
+- Umbrello
+- ArgoUML
+- Software Ideas Modeller
+- Eclipse UML2

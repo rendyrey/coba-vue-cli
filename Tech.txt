@@ -1,0 +1,39 @@
+Bukalapak:
+
+    Go
+    Ruby on Rails
+    MySQL
+    MongoDB
+    Redis
+    Elastic Search
+    RabbitMQ
+    Docker
+    Kubernetes
+    Gitlab CI
+    Grafana
+    Prometheus
+    Nginx
+
+Xtremax:
+
+    Java
+    Spring Framework (core, web, webmvc, data, transaction, cloud config, security, AOP)
+    Hibernate Framework
+    Liquibase
+    Ehcache
+    Oracle DB, PostgreSQL
+    JHipster
+    Build & Dependancy Management : Gradle, Maven
+    Front-end things : HTML, CSS, Bootstrap, JavaScript, jQuery, ExtJS
+    CI server : Jet Brains Team City
+
+URSABYTE
+
+
+    Java Programming Language
+    Spring Framework
+    Hibernate Framework
+    DBMS : Oracle DB, PostgreSQL
+    Application/Web Server : Oracle Weblogic, Tomcat
+    Reporting : JasperReport
+    Front-end things : HTML, CSS with Bootstrap Framework, JavaScript, jQuery

@@ -1,0 +1,32 @@
+Programming Language
+Statically Typed:
+explicit data type declaration
+Type variable cannot be changed, usually compiled
+Statically typed languages check the types and look for type errors during compile time.
+Types checked before run-time
+- Java
+- C
+- Go
+- C#
+- C++
+Dynamically typed:
+do not require explicit declaration
+type variable can be changed, usually interpreted
+Dynamically typed languages check the types and look for type errors during runtime.
+Types checked on the fly, during execution
+- Python
+- PHP
+- Javascript
+
+Strong Typing:
+Strong typing probably means that variables have a well-defined type and that 
+there are strict rules about combining variables of different types in expressions
+
+Strongly Typed: Will not be automatically converted from one type to another
+- Go
+- Python
+
+Weak Typing:
+Weakly (loosely) Typed: Will be automatically converted to one type to another: 
+Weakly typed languages like JavaScript or Perl
+- PHP

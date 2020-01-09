@@ -1,0 +1,57 @@
+medion sebelumnya:
+10.1.16.188:8088/medion/wp-admin/
+user: root
+pass: 1
+
+medion yg baru:
+172.16.31.75/medion-new/wp-admin
+user: admin
+pass: admin
+
+medcommcc@gmail.com, password medcomm321
+
+Webserver development dengan kondisi environment yg sama dengan Production, ada di 172.16.31.75 (php 5.6.3, apache 2.4.3, mysql 5.6.33)
+Berikut informasi utk trial web medion yg baru:
+
+## MySQL at 172.16.31.75/pma
+db : medion2019
+u: medion
+p: medion
+
+## Webroot via Filezilla at 172.16.31.75:2112
+u: medion
+p: medion
+path : /var/www/html/medion-new
+
+Tks,
+Awal
+
+
+Note : Server production ada di 172.16.31.197 
+ke 172.16.31.197
+u: medcomm
+p: m3dc0mm
+
+http://172.16.31.197/infomedion-backup/
+
+password jaringan medion
+rendy
+rendy2019
+
+
+phpmyadmin untuk infomedion lama
+https://172.16.31.197/pma/
+Login page
+user : it
+pwd : 1T4dm1n
+
+phpmyadmin untuk medion baru
+define( 'DB_NAME', 'medion' );
+
+/** MySQL database username */
+define( 'DB_USER', 'medion' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', '4dm1n@medion!!!' );
+
+1T4dm1n

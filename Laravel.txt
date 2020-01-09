@@ -1,0 +1,34 @@
+
+laravel
+
+-membuat project
+composer create-project --prefer-dist laravel/laravel nama project
+
+- require ui
+composer require laravel/ui --dev
+php artisan ui bootstrap
+php artisan ui vue
+
+-create controller:
+php artisan make:controller NamaController --resource
+-create model
+php artisan make:model User 
+-create migration
+php artisan make:migration nama --create=namatabel
+-update file
+composer dump-autoload
+-runnin migrate
+php artisan migrate
+
+-install form
+composer require "laravelcollective/html":"5.4.*"
+
+-restart setting 
+php artisan config:cache
+
+pindah project
+When copied, go to your destination folder and run composer install.
+
+Run php artisan key:generate from the command line.
+
+Run php artisan cache:clear from command line`
